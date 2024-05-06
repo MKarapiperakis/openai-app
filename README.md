@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to OPENAI CODEMASTER 🚀
 
-## Getting Started
+OPENAI CODEMASTER is a revolutionary platform that harnesses the power of OpenAI services to generate engaging quizzes and code challenges. Our aim is to provide users with a dynamic and interactive platform for testing and expanding their knowledge across a diverse array of subjects.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Engaging Quizzes:** Dive into captivating quizzes crafted by OpenAI's cutting-edge technology.
+- **Code Challenges:** Sharpen your coding skills with challenging exercises tailored to your proficiency level.
+- **Dynamic Platform:** Experience a dynamic and interactive learning environment that adapts to your needs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Get Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Ready to embark on your learning journey? Visit [OPENAI CODEMASTER](https://openai-app-omega.vercel.app) and start exploring today!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contribute
 
-## Learn More
+Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Data Model
+![image](https://github.com/MKarapiperakis/openai-app/assets/80547372/06dc180c-9eeb-4226-a6f3-46ef212614ba)
