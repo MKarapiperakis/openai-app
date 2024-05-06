@@ -1,0 +1,38 @@
+.bad {
+    background: linear-gradient(90deg, #f03333, #f51111);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  
+  .good {
+    background: linear-gradient(90deg, #46daff, #138af8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .excelent {
+    background: linear-gradient(90deg, #26f795, #02f553);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .highlight {
+    background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ddd6cb;
+    margin-bottom: 1rem;
+  }

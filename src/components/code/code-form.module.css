@@ -1,0 +1,150 @@
+.questionContainer {
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 150rem; /* Set the maximum width of the container */
+    margin: 0 auto; 
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .questionContainer p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ddd6cb;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .questionContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .questionContainer ul li {
+    font-size: 1.3rem;
+    color: #ddd6cb;
+  }
+
+  .highlight {
+    background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ddd6cb;
+    margin-bottom: 1rem;
+  }
+
+  .hint{
+    text-shadow: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hintText{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ddd6cb;
+    margin-bottom: 1rem;
+    text-shadow: rgba(0,0,0,0.5);
+    text-align: justify;
+  }
+
+  .eyeIcon{
+    width: 1.9em;
+    height: 1.9rem;
+    margin-top: 2px;
+    
+  }
+
+  .eyeIcon:hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
+
+  .row {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+
+
+  .quizButton {
+    border: 0;
+    padding: 0.55rem 1.75rem;
+    background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+    border: none;
+    color: #ffffff;
+    border-radius: 13px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.45rem;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease-in-out;
+    max-width: 10rem;
+  }
+  
+  .quizButton:hover {
+    background: linear-gradient(90deg, #57ecdd, #2fd6f0);
+    scale: 1.05;
+  }
+  
+  .quizButton:disabled,
+  .quizButton:hover:disabled{
+    background: #ccc;
+    color: #979797;
+    cursor: not-allowed;
+    scale: 1;
+  }
+
+.result{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 11px;
+}
+
+.loading{
+  margin-top: 1.4rem;
+}
+
+.restartButton{
+  margin-top: 0.5rem;
+  border: 0;
+  padding: 0.55rem 1.75rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 13px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.45rem;
+  font-weight: 600;
+  transition: background-color 0.5s ease-in-out;
+  background-color: transparent;
+  width: 170px;
+}
+
+.restartButton:hover{
+    color: "#2fd6f";
+    scale: 1.05;
+}

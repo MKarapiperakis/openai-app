@@ -1,0 +1,290 @@
+.header {
+  gap: 3rem;
+  margin: 3rem auto 5rem auto;
+  width: 90%;
+  max-width: 75rem;
+  color: #ddd6cb;
+  font-size: 1.5rem;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main {
+  width: 90%;
+  max-width: 75rem;
+  margin: 3rem auto;
+  color: white;
+  justify-content: center;
+}
+
+.loading {
+  margin-top: 15rem;
+  text-align: center;
+  display: block;
+}
+
+.form {
+  max-width: 50rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #b3aea5;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #454952;
+  background: #1c2027;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ddd6cb;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline-color: #f99f2a;
+  background-color: #1f252d;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.row p {
+  width: 100%;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  border: 0;
+  padding: 0.55rem 1.75rem;
+  background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+  border: none;
+  color: #ffffff;
+  border-radius: 13px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.45rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease-in-out; /* Apply transition to default state */
+}
+
+.actions button:hover,
+.actions button:focus {
+  background: linear-gradient(90deg, #57ecdd, #2fd6f0);
+  transition: background-color 0.3s ease;
+  
+}
+
+.actions button:disabled,
+.actions button:hover:disabled,
+.actions button:focus:disabled {
+  background: #ccc;
+  color: #979797;
+  cursor: not-allowed;
+}
+
+.form select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #454952;
+  background: #1c2027;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ddd6cb;
+  appearance: none; 
+}
+
+.form select:focus {
+  outline-color: #f99f2a;
+  background-color: #1f252d;
+}
+
+
+.form select::-ms-expand {
+  display: none;
+}
+
+.form select option {
+  background: #1c2027;
+  color: #ddd6cb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+}
+
+.questionContainer {
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 50rem; /* Set the maximum width of the container */
+  margin: 0 auto; 
+  margin-top: 15rem;
+}
+
+.questionContainer p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ddd6cb;
+  margin-bottom: 1rem;
+}
+
+.questionContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.questionContainer ul li {
+  font-size: 1.3rem;
+  color: #ddd6cb;
+}
+
+.questionContainer input[type="radio"] {
+  margin-right: 0.5rem; /* Add some space between radio button and label */
+  appearance: none; /* Remove default styles */
+  border-radius: 50%; /* Make radio button circular */
+  width: 1rem; /* Set width */
+  height: 1rem; /* Set height */
+  border: 2px solid #ddd6cb; /* Add border */
+  background-color: transparent; /* Make background transparent */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.questionContainer input[type="radio"]:checked {
+  background-color: #43d8c9; /* Change background color when checked */
+}
+
+.questionContainer label {
+  font-size: 1.5rem;
+  color: #ddd6cb;
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.questionContainer label:hover {
+  color: #979797;
+}
+
+.quizButton {
+  border: 0;
+  padding: 0.55rem 1.75rem;
+  background: linear-gradient(90deg, #43d8c9, #3ee4ff);
+  border: none;
+  color: #ffffff;
+  border-radius: 13px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.45rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease-in-out; /* Apply transition to default state */
+  width: 170px;
+}
+
+.quizButton:hover {
+  background: linear-gradient(90deg, #57ecdd, #2fd6f0);
+  scale: 1.05;
+}
+
+.quizButton:disabled,
+.quizButton:hover:disabled{
+  background: #ccc;
+  color: #979797;
+  cursor: not-allowed;
+  scale: 1;
+}
+
+.buttonsRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resultsContainer {
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 50rem; 
+  margin: 0 auto; 
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultsContainer label {
+  font-size: 1.5rem;
+  color: #ddd6cb;
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.resultsContainer .highlight {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #ddd6cb;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .quizButton {
+    padding: 0.6rem;
+    font-size: 1.5rem; 
+    width: 140px; 
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .quizButton {
+    padding: 0.5rem;
+    font-size: 1rem; 
+    width: 110px; 
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quizButton {
+    padding: 0.25rem 1.2rem; 
+    font-size: 1rem; 
+    width: 100px; 
+  }
+}
+
+
+.error{
+  background: linear-gradient(90deg, #f03333, #f51111);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
