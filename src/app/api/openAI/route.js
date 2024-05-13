@@ -28,7 +28,7 @@ export async function POST(request) {
     ]
   } `;
   } else {
-    prompt = `Create for me one programming question that requires code using technology ${technology} as answer. The difficulty will be ${difficulty}. The response should be in json format. Be carefull with special characters like string literals in the returned json. This is an example of a response: {
+    prompt = `Create for me one programming question that requires code using technology ${technology} as answer. The difficulty will be ${difficulty}. The response should be in json format and also the question should be random every time. Be carefull with special characters like string literals in the returned json. This is an example of a response: {
       "question": "Create a function in JavaScript that takes two numbers as parameters and returns their sum.",
       "difficulty": "Beginner",
       "hint": "You can use the + operator to add the two numbers together."
